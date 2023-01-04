@@ -214,6 +214,7 @@ require (
 )
 
 replace (
+	github.com/tendermint/tendermint => github.com/skip-mev/mev-tendermint v0.34.24-mev.14
 	// use cosmos keyring
 	github.com/99designs/keyring => github.com/cosmos/keyring v1.1.7-0.20210622111912-ef00f8ac3d76
 	// use Cosmos-SDK fork to enable Ledger functionality
