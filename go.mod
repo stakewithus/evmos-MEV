@@ -219,6 +219,6 @@ replace (
 	github.com/cosmos/cosmos-sdk => github.com/evmos/cosmos-sdk v0.46.8-ledger
 	// use cosmos flavored protobufs
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
-	// Informal Tendermint fork
-	github.com/tendermint/tendermint => github.com/informalsystems/tendermint v0.34.25
+	// SKIP MEV-
+	github.com/tendermint/tendermint => github.com/skip-mev/mev-tendermint v0.34.25-mev.15
 )
