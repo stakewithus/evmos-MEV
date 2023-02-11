@@ -221,6 +221,6 @@ replace (
 	github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.7.7
 	// use cosmos flavored protobufs
 	github.com/gogo/protobuf => github.com/regen-network/protobuf v1.3.3-alpha.regen.1
-	// Informal Tendermint fork
-	github.com/tendermint/tendermint => github.com/informalsystems/tendermint v0.34.26
+	// SKIP MEV
+        github.com/tendermint/tendermint => github.com/skip-mev/mev-tendermint v0.34.25-mev.15
 )
